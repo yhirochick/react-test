@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import MEDIA from './data/media.json'
+import { speak } from './narration'
 
 // 到着した場所の「映像」: 実物の写真や絵図をゆっくり動かしながら、解説を字幕（と読み上げ）で流す
 
@@ -11,21 +12,7 @@ const sentencesOf = (text) =>
 
 export const mediaOf = (event) => MEDIA[event.title] ?? []
 
-function speak(text, onEnd) {
-  const synth = window.speechSynthesis
-  if (!synth) return false
-  const u = new SpeechSynthesisUtterance(text)
-  u.lang = 'ja-JP'
-  u.rate = 1.02
-  const ja = synth.getVoices().find((v) => v.lang?.startsWith('ja'))
-  if (ja) u.voice = ja
-  u.onend = onEnd
-  u.onerror = onEnd
-  synth.speak(u)
-  return true
-}
-
-export default function Film({ event, active, voice, onDone }) {
+export default function Film({ event, active, voice, voiceName, onDone }) {
   const media = useMemo(() => mediaOf(event), [event])
   const lines = useMemo(() => sentencesOf(event.text), [event])
   const [step, setStep] = useState(-1) // -1 = タイトル、0〜 = 字幕の行
@@ -54,7 +41,7 @@ export default function Film({ event, active, voice, onDone }) {
     } else {
       const text = lines[step]
       const fallback = Math.max(3600, text.length * 170)
-      if (voice && speak(text, () => (timer = setTimeout(next, 500)))) {
+      if (voice && speak(text, { voiceName, onEnd: () => (timer = setTimeout(next, 650)) })) {
         // 読み上げが止まってしまった場合の保険
         timer = setTimeout(next, fallback * 2.2)
       } else {
@@ -66,7 +53,7 @@ export default function Film({ event, active, voice, onDone }) {
       clearTimeout(timer)
       window.speechSynthesis?.cancel()
     }
-  }, [active, step, lines, voice])
+  }, [active, step, lines, voice, voiceName])
 
   // 字幕の進み具合に合わせて画像を切り替える
   const shot = media.length ? Math.min(media.length - 1, Math.floor((Math.max(step, 0) / lines.length) * media.length)) : -1

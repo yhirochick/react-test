@@ -716,3 +716,19 @@
     width: 16px;
   }
 }
+
+.toggles {
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.voice-pick {
+  font: inherit;
+  font-size: 11px;
+  max-width: 130px;
+  padding: 2px 4px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(8, 16, 28, 0.8);
+  color: #fff;
+}

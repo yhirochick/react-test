@@ -5,6 +5,7 @@ import { useGsiTerrainSource as createGsiTerrainSource } from 'maplibre-gl-gsi-t
 import { ERAS, EVENTS, eraOf } from './data/events'
 import { cameraAltitude, compass, planFlight, pointAlong } from './flight'
 import Film, { mediaOf } from './Film'
+import { onVoicesReady } from './narration'
 import './App.css'
 
 const GSI = 'https://cyberjapandata.gsi.go.jp/xyz'
@@ -114,6 +115,8 @@ export default function App() {
   const [collapsed, setCollapsed] = useState(false)
   const [showFilm, setShowFilm] = useState(true) // 到着したら映像に切り替えるか
   const [voice, setVoice] = useState(false) // 解説の読み上げ
+  const [voices, setVoices] = useState([]) // 端末にある日本語音声（自然な順）
+  const [voiceName, setVoiceName] = useState('')
   const [filmIdx, setFilmIdx] = useState(null) // 映像を流している出来事
 
   const event = idx >= 0 ? EVENTS[idx] : null
@@ -372,6 +375,8 @@ export default function App() {
     return () => cancelAnimationFrame(flightRef.current)
   }, [idx, ready, startOrbit, stopOrbit])
 
+  useEffect(() => onVoicesReady(setVoices), [])
+
   // 到着して少し旋回したら、映像に切り替える
   useEffect(() => {
     if (idx < 0 || arrivedIdx !== idx || !showFilm) return
@@ -443,7 +448,7 @@ export default function App() {
         <i />
       </div>
 
-      {event && <Film event={event} active={filming} voice={voice} onDone={onFilmDone} />}
+      {event && <Film event={event} active={filming} voice={voice} voiceName={voiceName} onDone={onFilmDone} />}
 
       {idx < 0 && (
         <div className="intro">
@@ -593,6 +598,20 @@ export default function App() {
                   <button className="link" onClick={() => setVoice((v) => !v)}>
                     {voice ? '🔊 読み上げ中' : '🔈 読み上げ'}
                   </button>
+                  {voice && voices.length > 1 && (
+                    <select
+                      className="voice-pick"
+                      value={voiceName || voices[0].name}
+                      onChange={(e) => setVoiceName(e.target.value)}
+                      aria-label="読み上げの声"
+                    >
+                      {voices.map((v) => (
+                        <option key={v.name} value={v.name}>
+                          {v.name.replace(/Microsoft |Google |\(Japanese.*\)| - Japanese.*/g, '').trim()}
+                        </option>
+                      ))}
+                    </select>
+                  )}
                   <button className="link" onClick={() => setShowFilm((f) => !f)}>
                     {showFilm ? '🗺 地図を見る' : '🎬 映像を見る'}
                   </button>
