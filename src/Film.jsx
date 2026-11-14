@@ -1,14 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import MEDIA from './data/media.json'
-import { speak } from './narration'
+import { loadNarration, narrate, sentencesOf } from './narration'
 
 // 到着した場所の「映像」: 実物の写真や絵図をゆっくり動かしながら、解説を字幕（と読み上げ）で流す
-
-const sentencesOf = (text) =>
-  text
-    .split(/(?<=。)/)
-    .map((s) => s.trim())
-    .filter(Boolean)
 
 export const mediaOf = (event) => MEDIA[event.title] ?? []
 
@@ -16,6 +10,10 @@ export default function Film({ event, active, voice, voiceName, onDone }) {
   const media = useMemo(() => mediaOf(event), [event])
   const lines = useMemo(() => sentencesOf(event.text), [event])
   const [step, setStep] = useState(-1) // -1 = タイトル、0〜 = 字幕の行
+  const [nar, setNar] = useState(null) // 事前に作ったナレーション音声の一覧
+  useEffect(() => {
+    loadNarration().then(setNar)
+  }, [])
   const doneRef = useRef(onDone)
   useEffect(() => {
     doneRef.current = onDone
@@ -31,6 +29,7 @@ export default function Film({ event, active, voice, voiceName, onDone }) {
     if (!active) return
     let timer = 0
     let cancelled = false
+    let stop = null
     const next = () => {
       if (cancelled) return
       if (step >= lines.length - 1) doneRef.current?.()
@@ -41,7 +40,8 @@ export default function Film({ event, active, voice, voiceName, onDone }) {
     } else {
       const text = lines[step]
       const fallback = Math.max(3600, text.length * 170)
-      if (voice && speak(text, { voiceName, onEnd: () => (timer = setTimeout(next, 650)) })) {
+      stop = voice ? narrate(event.id, step, text, { voiceName, index: nar, onEnd: () => (timer = setTimeout(next, 650)) }) : null
+      if (stop) {
         // 読み上げが止まってしまった場合の保険
         timer = setTimeout(next, fallback * 2.2)
       } else {
@@ -51,9 +51,9 @@ export default function Film({ event, active, voice, voiceName, onDone }) {
     return () => {
       cancelled = true
       clearTimeout(timer)
-      window.speechSynthesis?.cancel()
+      stop?.()
     }
-  }, [active, step, lines, voice, voiceName])
+  }, [active, step, lines, voice, voiceName, nar, event.id])
 
   // 字幕の進み具合に合わせて画像を切り替える
   const shot = media.length ? Math.min(media.length - 1, Math.floor((Math.max(step, 0) / lines.length) * media.length)) : -1
@@ -100,6 +100,8 @@ export default function Film({ event, active, voice, voiceName, onDone }) {
           </div>
         </div>
       )}
+
+      {active && voice && nar?.items?.[event.id] && <p className="film-voice">音声: {nar.credit}</p>}
 
       {active && pic && (
         <a className="film-credit" href={pic.page} target="_blank" rel="noreferrer">

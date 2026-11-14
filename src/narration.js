@@ -82,3 +82,48 @@ export function speak(text, { voiceName, onEnd } = {}) {
   synth.speak(u)
   return true
 }
+
+// ── 事前に作ったナレーション音声（VOICEVOX）──
+// scripts/make-narration.mjs が public/narration/ に音声と index.json を書き出す。
+// 無ければブラウザ内蔵の音声で読み上げる。
+
+export const sentencesOf = (text) =>
+  text
+    .split(/(?<=。)/)
+    .map((s) => s.trim())
+    .filter(Boolean)
+
+// 解説文を直したあとに古い音声を使わないための目印
+export function textHash(text) {
+  let h = 5381
+  for (let i = 0; i < text.length; i++) h = ((h * 33) ^ text.charCodeAt(i)) >>> 0
+  return h.toString(16)
+}
+
+const BASE = (import.meta.env?.BASE_URL ?? '/') + 'narration/'
+let manifest
+export function loadNarration() {
+  manifest ??= fetch(BASE + 'index.json')
+    .then((r) => (r.ok ? r.json() : null))
+    .catch(() => null)
+  return manifest
+}
+
+// 1 文を読む。音声ファイルがあればそれを、無ければ内蔵音声を使う。返り値は停止用の関数
+export function narrate(eventId, index, text, { voiceName, onEnd, index: nar } = {}) {
+  const item = nar?.items?.[eventId]?.[index]
+  if (item && item.hash === textHash(toSpoken(text))) {
+    const audio = new Audio(BASE + item.file)
+    let stopped = false
+    audio.onended = () => !stopped && onEnd?.()
+    audio.onerror = () => !stopped && speak(text, { voiceName, onEnd })
+    audio.play().catch(() => !stopped && speak(text, { voiceName, onEnd }))
+    return () => {
+      stopped = true
+      audio.pause()
+      window.speechSynthesis?.cancel()
+    }
+  }
+  if (!speak(text, { voiceName, onEnd })) return null
+  return () => window.speechSynthesis.cancel()
+}

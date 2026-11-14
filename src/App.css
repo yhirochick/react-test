@@ -732,3 +732,20 @@
   background: rgba(8, 16, 28, 0.8);
   color: #fff;
 }
+
+.film-voice {
+  position: absolute;
+  right: 12px;
+  top: 118px;
+  margin: 0;
+  font-size: 10.5px;
+  color: rgba(255, 255, 255, 0.72);
+  text-shadow: 0 1px 4px #000;
+}
+@media (max-width: 640px) {
+  .film-voice {
+    top: 50px;
+    right: 8px;
+    font-size: 9.5px;
+  }
+}
