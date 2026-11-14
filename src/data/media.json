@@ -1,0 +1,923 @@
+{
+ "五穀が流れ着いた島・久高島": [
+  {
+   "src": "/media/01-0.jpg",
+   "w": 1280,
+   "h": 853,
+   "caption": "久高島・イシキ浜（現在）。五穀の壺が流れ着いたと伝わる浜",
+   "credit": "Kugel~commonswiki",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Ishiki_Hama_202401_02.jpg"
+  },
+  {
+   "src": "/media/01-1.jpg",
+   "w": 1280,
+   "h": 853,
+   "caption": "久高島の東海岸（現在）",
+   "credit": "Kugel~commonswiki",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Ishiki_Hama_202401_04.jpg"
+  }
+ ],
+ "発掘された最古級の畑": [
+  {
+   "src": "/media/02-0.jpg",
+   "w": 1280,
+   "h": 971,
+   "caption": "伊波貝塚（戦前の写真）。農耕が始まる前、貝塚時代の暮らしの跡",
+   "credit": "撮影者不詳",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Iha_Shell_Mound.jpg"
+  }
+ ],
+ "北から来た器と農耕の波": [
+  {
+   "src": "/media/03-0.jpg",
+   "w": 1280,
+   "h": 1707,
+   "caption": "カムィヤキの壺（出土品の展示）",
+   "credit": "Bérangère444",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Kamuiyaki_ware_from_Kanna_Utaki.jpg"
+  }
+ ],
+ "先島がひとつの文化圏に": [
+  {
+   "src": "/media/04-0.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "石垣島のフルスト原遺跡（現在）。石積みで囲まれた、後の時代の集落跡",
+   "credit": "Paipateroma",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Ishigaki_furusutobaru_iseki.jpg"
+  }
+ ],
+ "グスクと按司の登場": [
+  {
+   "src": "/media/05-0.jpg",
+   "w": 960,
+   "h": 755,
+   "caption": "浦添ようどれに納められた石厨子（戦前の写真）",
+   "credit": "撮影者不詳",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Urasoe_Yodore_Ishizushi.jpg"
+  },
+  {
+   "src": "/media/05-1.jpg",
+   "w": 1280,
+   "h": 853,
+   "caption": "浦添城跡の石積み（現在。復元を含む）",
+   "credit": "TurnOnTheNight",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Urasoe_Castle_Site_20250506153350.jpg"
+  }
+ ],
+ "三山分立・北山の王城": [
+  {
+   "src": "/media/06-0.jpg",
+   "w": 1280,
+   "h": 720,
+   "caption": "今帰仁城跡（現在）。波打つように続く城壁",
+   "credit": "CEphoto, Uwe Aranas",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Nakijin_Okinawa_Japan_Nakikjin-Castle-05.jpg"
+  },
+  {
+   "src": "/media/06-1.jpg",
+   "w": 1280,
+   "h": 720,
+   "caption": "今帰仁城跡の城壁（現在）",
+   "credit": "CEphoto, Uwe Aranas",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Nakijin_Okinawa_Japan_Nakikjin-Castle-01.jpg"
+  }
+ ],
+ "三山分立・南山の拠点": [
+  {
+   "src": "/media/07-0.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "南山城跡（現在）",
+   "credit": "Kugel",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Nanzan_Castle,_Okinawa.JPG"
+  }
+ ],
+ "中山王察度、明へ使いを送る": [
+  {
+   "src": "/media/08-0.jpg",
+   "w": 1280,
+   "h": 785,
+   "caption": "北京へ貢物を運ぶ琉球の進貢船の出航（1831年刊の版画）",
+   "credit": "William Smyth (sketch)F. Finden (engraving)Frederick William",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Departure_of_a_Loo_Choo_(Ryukyu)_Junk_with_Tribute_to_Pekin_(Peking,_China)_2.jpg"
+  },
+  {
+   "src": "/media/08-1.jpg",
+   "w": 500,
+   "h": 676,
+   "caption": "進貢船の図（18〜19世紀）",
+   "credit": "撮影者不詳",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Shinkosen.jpg"
+  }
+ ],
+ "宮古・八重山が中山と結ぶ": [
+  {
+   "src": "/media/09-0.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "宮古島・漲水御嶽（現在）",
+   "credit": "Paipateroma",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Miyako_harimizu_utaki.jpg"
+  }
+ ],
+ "久米村の誕生": [
+  {
+   "src": "/media/10-0.jpg",
+   "w": 1280,
+   "h": 997,
+   "caption": "葛飾北斎「琉球八景 粂村竹籬」（1832年ごろ）。久米村を描いた浮世絵",
+   "credit": "Katsushika Hokusai",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:%E7%90%89%E7%90%83%E5%85%AB%E6%99%AF_%E7%B2%82%E6%9D%91%E7%AB%B9%E7%B1%AC-Bamboo_Hedge_at_Kumemura_(Kumemura_chikuri),_from_the_series_Eight_Views_of_the_Ry%C5%ABky%C5%AB_Islands_(Ry%C5%ABky%C5%AB_hakkei)_MET_DP141123.jpg"
+  }
+ ],
+ "尚巴志、立つ": [
+  {
+   "src": "/media/11-0.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "佐敷城跡（現在）",
+   "credit": "Sturmgewehr88",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Sashiki_Castle_Site.jpg"
+  },
+  {
+   "src": "/media/11-1.jpg",
+   "w": 1280,
+   "h": 1707,
+   "caption": "佐敷城跡に立つ尚巴志の碑（現在）",
+   "credit": "Sturmgewehr88",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Sho_Hashi_Sashiki_Stele.jpg"
+  }
+ ],
+ "琉球王国の成立": [
+  {
+   "src": "/media/12-0.jpg",
+   "w": 1280,
+   "h": 770,
+   "caption": "戦前の首里城・守礼門",
+   "credit": "撮影者不詳",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Shuri_Castle_Shureimon_(pre-1945).jpg"
+  },
+  {
+   "src": "/media/12-1.jpg",
+   "w": 1280,
+   "h": 860,
+   "caption": "戦前の首里城・歓会門",
+   "credit": "撮影者不詳",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Shuri_Castle_Kankaimon_(pre-1945).jpg"
+  }
+ ],
+ "名築城家・護佐丸の城": [
+  {
+   "src": "/media/13-0.jpg",
+   "w": 1280,
+   "h": 891,
+   "caption": "座喜味城跡（現在）",
+   "credit": "Suikotei",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Zakimi_Castle-2_200401.jpg"
+  },
+  {
+   "src": "/media/13-1.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "座喜味城跡のアーチ門と城壁（現在）",
+   "credit": "Renate Hano",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Zakimi_Burg,_%C3%A4u%C3%9Ferer_Ring.jpg"
+  }
+ ],
+ "護佐丸・阿麻和利の乱（中城）": [
+  {
+   "src": "/media/14-0.jpg",
+   "w": 1280,
+   "h": 851,
+   "caption": "中城城跡（現在）",
+   "credit": "663highland",
+   "license": "CC BY 2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Nakagusuku_Castle25bs3104.jpg"
+  },
+  {
+   "src": "/media/14-1.jpg",
+   "w": 1280,
+   "h": 851,
+   "caption": "中城城跡の城壁（現在）",
+   "credit": "663highland",
+   "license": "CC BY 2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Nakagusuku_Castle04n3104.jpg"
+  }
+ ],
+ "護佐丸・阿麻和利の乱（勝連）": [
+  {
+   "src": "/media/15-0.jpg",
+   "w": 1280,
+   "h": 850,
+   "caption": "勝連城跡（現在）",
+   "credit": "kanegen",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Katsuren_Castle_ruins.jpg"
+  },
+  {
+   "src": "/media/15-1.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "勝連城跡（現在）",
+   "credit": "Furinkazan1573",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Katsurenj%C3%B4_(12).jpg"
+  }
+ ],
+ "農民の子、王になる": [
+  {
+   "src": "/media/16-0.jpg",
+   "w": 1280,
+   "h": 853,
+   "caption": "海から見た伊是名島（現在）",
+   "credit": "Kugel~commonswiki",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Izena_Island_seen_from_Ferry_Iheya_III_202211_02.jpg"
+  }
+ ],
+ "万国津梁・大交易時代": [
+  {
+   "src": "/media/17-0.jpg",
+   "w": 1280,
+   "h": 471,
+   "caption": "進貢船と那覇の港を描いた屏風（1830年ごろ、京都大学総合博物館蔵）",
+   "credit": "撮影者不詳",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Ryukyu_Tribute_Ship_Folding_Screen_Kyoto_University_Museum.png"
+  }
+ ],
+ "尚真王の黄金時代": [
+  {
+   "src": "/media/18-0.jpg",
+   "w": 1280,
+   "h": 852,
+   "caption": "玉陵（現在）。第二尚氏王統の陵墓",
+   "credit": "663highland",
+   "license": "CC BY 2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Tamaudun01s3s4592.jpg"
+  }
+ ],
+ "国家の祈りと聖地": [
+  {
+   "src": "/media/19-1.jpg",
+   "w": 1280,
+   "h": 1707,
+   "caption": "斎場御嶽の岩（現在）",
+   "credit": "Hyppolyte de Saint-Rambert",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Okinawa_Nanjo_Sefa-utaki_Gusuku_site_Yuinchi_07.jpg"
+  }
+ ],
+ "オヤケアカハチの乱": [
+  {
+   "src": "/media/20-0.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "波照間島に立つオヤケアカハチゆかりの碑（現在）",
+   "credit": "Paipateroma",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hateruma_akahachi.jpg"
+  },
+  {
+   "src": "/media/20-1.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "石垣島・フルスト原遺跡（現在）。アカハチの居城跡とも伝わる",
+   "credit": "Paipateroma",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Ishigaki_furusutoaru.jpg"
+  }
+ ],
+ "久米島の按司たちの終わり": [
+  {
+   "src": "/media/21-0.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "久米島・宇江城城跡（現在）",
+   "credit": "Kiken68",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%AE%87%E6%B1%9F%E5%9F%8E%E5%9F%8E%E8%B7%A1%EF%BC%88%E4%B9%85%E7%B1%B3%E5%B3%B6%E7%94%BA%EF%BC%89.jpg"
+  }
+ ],
+ "国境の島・与那国": [
+  {
+   "src": "/media/22-0.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "与那国島・ティンダバナの断崖（現在）",
+   "credit": "Melkov",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tindabana_from_Sonai_Port_2019.jpg"
+  },
+  {
+   "src": "/media/22-1.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "ティンダバナの岩陰（現在）。サンアイ・イソバが暮らしたと伝わる",
+   "credit": "Kzaral",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tindahana,_Yonaguni.jpg"
+  }
+ ],
+ "芋が人々を救う": [
+  {
+   "src": "/media/23-0.jpg",
+   "w": 1280,
+   "h": 854,
+   "caption": "野國總管の像（嘉手納町、現在）",
+   "credit": "Yoshi Canopus",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%87%8E%E5%9B%BD%E7%B7%8F%E7%AE%A1%E3%81%AE%E5%83%8F%EF%BC%88%E5%98%89%E6%89%8B%E7%B4%8D%E7%94%BA%EF%BC%89.jpg"
+  },
+  {
+   "src": "/media/23-1.jpg",
+   "w": 960,
+   "h": 604,
+   "caption": "野國總管の墓（戦前の写真）",
+   "credit": "撮影者不詳",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Tomb_of_Noguni_Sokan_(Kadena).jpg"
+  }
+ ],
+ "薩摩軍の上陸": [
+  {
+   "src": "/media/24-0.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "運天港の航空写真（現在）",
+   "credit": "国土地理院",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Unten_port_aerial_photo.jpg"
+  },
+  {
+   "src": "/media/24-1.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "運天港の浜と古い墓（現在）",
+   "credit": "Bérangère444",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Unten_harbour_old_tombs_02.jpg"
+  }
+ ],
+ "人頭税の時代": [
+  {
+   "src": "/media/25-0.jpg",
+   "w": 960,
+   "h": 1280,
+   "caption": "宮古島の「人頭税石」（現在）",
+   "credit": "Paipateroma",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Nintouzeiseki.jpg"
+  }
+ ],
+ "海を渡って田を作る": [
+  {
+   "src": "/media/26-0.jpg",
+   "w": 960,
+   "h": 720,
+   "caption": "西表島のマングローブの河口（現在）",
+   "credit": "Anagounagi",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Mangrove_swamp,_Iriomote_Island,_Okinawa,_Japan.jpg"
+  }
+ ],
+ "王国文化の開花": [
+  {
+   "src": "/media/27-0.jpg",
+   "w": 1280,
+   "h": 1920,
+   "caption": "紅型の衣装をまとった琉球舞踊の踊り手（現代）",
+   "credit": "Sara Cimino",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Dancer_in_bingata_2.jpg"
+  }
+ ],
+ "ペリー艦隊、那覇に現る": [
+  {
+   "src": "/media/30-0.jpg",
+   "w": 1280,
+   "h": 852,
+   "caption": "ペリー一行の首里城訪問（1856年刊の石版画）",
+   "credit": "Sarony &amp; Co.",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Com._Perry%27s_visit_to_Shui,_Lew_Chew_-_from_nature_by_W._Heine_;_lith._of_Sarony_%26_Co.,_New_York._LCCN90707843.tif"
+  },
+  {
+   "src": "/media/30-1.jpg",
+   "w": 1280,
+   "h": 848,
+   "caption": "琉球の摂政邸での宴（1856年刊の石版画）",
+   "credit": "T. Sinclair's Lith.",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Dinner_at_the_Regents,_Lew_Chew_-_T._Sinclair%27s_Lith.,_Phila._LCCN90707845.jpg"
+  },
+  {
+   "src": "/media/30-2.jpg",
+   "w": 1280,
+   "h": 930,
+   "caption": "首里から戻るペリー提督一行（1855年の石版画）",
+   "credit": "Eliphalet M. Brown, Jr., after Peter Bernard William Heine",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Return_of_Commodore_Perry,_Officers_and_Men_of_the_Squadron_from_an_Official_Visit_to_the_Prince_Regent_at_Shui,_Capitol_of_Lew_Chew,_June_6th_1853,_by_Eliphalet_M._Brown,_Jr.,_1855,_from_the_National_Portrait_Gallery_-_NPG-8200264B_1.jpg"
+  }
+ ],
+ "琉球処分・王国の終わり": [
+  {
+   "src": "/media/31-0.jpg",
+   "w": 500,
+   "h": 750,
+   "caption": "最後の琉球国王・尚泰",
+   "credit": "撮影者不詳",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Sho_Tai.jpg"
+  },
+  {
+   "src": "/media/31-1.jpg",
+   "w": 1280,
+   "h": 819,
+   "caption": "戦前の首里城・白銀門",
+   "credit": "撮影者不詳",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Shuri_Castle_Shiroganemon_(pre-1945).jpg"
+  }
+ ],
+ "密林の炭坑": [
+  {
+   "src": "/media/32-0.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "西表島・宇多良炭坑跡（現在）。ガジュマルに呑まれたレンガの柱",
+   "credit": "Ray go",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Utara_Coal_Mine_1.jpg"
+  },
+  {
+   "src": "/media/32-1.jpg",
+   "w": 1280,
+   "h": 939,
+   "caption": "宇多良炭坑跡に残るトロッコの支柱（現在）",
+   "credit": "Miyo0117",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%AE%87%E5%A4%9A%E8%89%AF%E7%82%AD%E9%89%B1%E8%B7%A1%E3%83%88%E3%83%AD%E3%83%83%E3%82%B3%E3%81%AE%E6%94%AF%E6%9F%B1%E8%B7%A1%E3%83%BB%E6%A9%8B%E6%A2%81%E8%B7%A1.jpg"
+  }
+ ],
+ "海を渡る沖縄人": [
+  {
+   "src": "/media/33-0.jpg",
+   "w": 960,
+   "h": 641,
+   "caption": "當山久三の像（金武町、現在）",
+   "credit": "visitkintown",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Kyuzo_Toyama_statue.jpg"
+  }
+ ],
+ "絶海の島の開拓": [
+  {
+   "src": "/media/34-0.jpg",
+   "w": 1280,
+   "h": 1600,
+   "caption": "宇宙から見た南大東島（2001年）",
+   "credit": "NASA Johnson Space Center",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Minami_Daito_Jima_ISS002.jpg"
+  },
+  {
+   "src": "/media/34-1.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "南大東島のサトウキビ畑（現在）",
+   "credit": "衛兵隊衛士 at Japanese Wikipedia",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Minamidaito-154.jpg"
+  }
+ ],
+ "軽便鉄道が走る": [
+  {
+   "src": "/media/36-0.jpg",
+   "w": 1280,
+   "h": 830,
+   "caption": "沖縄県営鉄道・与那原駅（1930年ごろ）",
+   "credit": "撮影者不詳",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Yonabaru_Station_of_Okinawa_Prefectural_Railways.jpg"
+  },
+  {
+   "src": "/media/36-1.jpg",
+   "w": 1280,
+   "h": 845,
+   "caption": "沖縄県営鉄道・東風平駅（戦前）",
+   "credit": "撮影者不詳",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Kochinda_Station_of_Okinawa_Prefectural_Railways.jpg"
+  }
+ ],
+ "ソテツ地獄": [
+  {
+   "src": "/media/37-0.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "ソテツの群落（沖縄、現在）",
+   "credit": "Yanbaru917",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cycas_revoluta_Community,_Okinawa.jpg"
+  }
+ ],
+ "台湾から来た稲とパイン": [
+  {
+   "src": "/media/38-0.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "竹富島の水牛車（現在）。水牛は台湾から八重山に伝わった",
+   "credit": "Ken FUNAKOSHI from Yokohama, Japan",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Water_buffalo_taxi.jpg"
+  }
+ ],
+ "十・十空襲": [
+  {
+   "src": "/media/39-0.jpg",
+   "w": 500,
+   "h": 401,
+   "caption": "1944年10月10日、空襲当日に米軍が撮影した航空写真（西原の飛行場）",
+   "credit": "U.S. Navy",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Japanese_Army_Nishihara_Airfield_1944-10-10.jpg"
+  },
+  {
+   "src": "/media/39-1.jpg",
+   "w": 1280,
+   "h": 1006,
+   "caption": "沖縄上空で爆弾を投下する米軍機（1945年）",
+   "credit": "撮影者不詳",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:TBM_Avenger_dropping_bombs_over_Okinawa_in_1945.jpg"
+  }
+ ],
+ "慶良間諸島への上陸": [
+  {
+   "src": "/media/40-1.jpg",
+   "w": 960,
+   "h": 517,
+   "caption": "慶良間諸島の沖で艦船のそばに墜ちる日本軍機（1945年4月）",
+   "credit": "U.S. Navy",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Japanese_kamikaze_crashes_near_LST-735_off_Kerama_Retto,_2_April_1945.jpg"
+  }
+ ],
+ "沖縄本島上陸": [
+  {
+   "src": "/media/41-0.jpg",
+   "w": 1280,
+   "h": 1028,
+   "caption": "沖縄へ向かう上陸用舟艇の米兵（1945年4月1日）",
+   "credit": "U.S. Army Signal Corps",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:SC_205191_-_INVASION_OF_OKINAWA._Men_of_7th_Infantry_Division_head_for_the_beaches_of_Okinawa_in_LVTs.jpg"
+  },
+  {
+   "src": "/media/41-1.jpg",
+   "w": 1280,
+   "h": 1020,
+   "caption": "上陸部隊を援護して砲撃する米戦艦（1945年）",
+   "credit": "AnonymousUnknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:NH_42390_USS_Tennessee_(BB-43)_with_LVTs_near_Okinawa,_1945.png"
+  }
+ ],
+ "伊江島の戦い": [
+  {
+   "src": "/media/42-1.jpg",
+   "w": 1280,
+   "h": 907,
+   "caption": "米軍が撮影した伊江島の航空写真（1945年）",
+   "credit": "米軍",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:1945_Ie_Shima_Aerial_photography.png"
+  }
+ ],
+ "中部戦線と首里攻防": [
+  {
+   "src": "/media/43-0.jpg",
+   "w": 500,
+   "h": 404,
+   "caption": "破壊された首里城の城壁（1945年5月）",
+   "credit": "U.S. Navy",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Rubble_of_the_walls_of_Shuri_castle_2,_1945.jpg"
+  },
+  {
+   "src": "/media/43-1.jpg",
+   "w": 500,
+   "h": 407,
+   "caption": "戦闘で廃墟となった首里（1945年5月）",
+   "credit": "U.S. Navy",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Rubble_of_the_walls_of_Shuri_castle,_1945_01.jpg"
+  }
+ ],
+ "摩文仁・戦いの終わり": [
+  {
+   "src": "/media/44-0.jpg",
+   "w": 1280,
+   "h": 720,
+   "caption": "平和の礎（糸満市摩文仁、現在）",
+   "credit": "CEphoto, Uwe Aranas",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Itoman_Okinawa_Okinawa-Cornerstone-of-Peace-Memorial-02.jpg"
+  },
+  {
+   "src": "/media/44-1.jpg",
+   "w": 1280,
+   "h": 853,
+   "caption": "平和の礎・平和の火（現在）",
+   "credit": "Balon Greyjoy",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:20190406_Cornerstone_of_Peace-1.jpg"
+  }
+ ],
+ "戦争マラリア": [
+  {
+   "src": "/media/45-0.jpg",
+   "w": 1280,
+   "h": 853,
+   "caption": "西表島・南風見田の「忘勿石」の碑（現在）",
+   "credit": "松岡明芳",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:2017-01-26_Wasurena-ishi,Haemita,Iriomote_%E8%A5%BF%E8%A1%A8%E5%B3%B6%E5%BF%98%E5%8B%BF%E7%9F%B3_DSCF0500.jpg"
+  },
+  {
+   "src": "/media/45-1.jpg",
+   "w": 1280,
+   "h": 853,
+   "caption": "南風見田の海岸（現在）。波照間の人々が疎開させられた浜",
+   "credit": "松岡明芳",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:2017-01-26_Wasurena-ishi,Haemita,Iriomote_%E8%A5%BF%E8%A1%A8%E5%B3%B6%E5%BF%98%E5%8B%BF%E7%9F%B3_DSCF0484.jpg"
+  }
+ ],
+ "切り離された島": [
+  {
+   "src": "/media/46-0.jpg",
+   "w": 500,
+   "h": 367,
+   "caption": "米国統治下の那覇の新聞社ビル（1960年代）",
+   "credit": "USCAR(United States Civil Administration of the Ryukyu Islan",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Ryukyu_Shimpo_Building_in_1960s.JPG"
+  }
+ ],
+ "銃剣とブルドーザー": [
+  {
+   "src": "/media/47-0.jpg",
+   "w": 500,
+   "h": 352,
+   "caption": "伊佐浜の土地闘争。「金は一年土地は万年」ののぼり（1955年ごろ）",
+   "credit": "沖縄県公文書館",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%AE%9C%E9%87%8E%E6%B9%BE%E4%BC%8A%E4%BD%90%E6%B5%9C_%E3%80%8C%E9%87%91%E3%81%AF%E4%B8%80%E5%B9%B4%E5%9C%9F%E5%9C%B0%E3%81%AF%E4%B8%87%E5%B9%B4%E3%80%8D.jpg"
+  }
+ ],
+ "開拓移民とマラリアとの闘い": [
+  {
+   "src": "/media/48-0.jpg",
+   "w": 1280,
+   "h": 964,
+   "caption": "入植地・明石の現在（石垣島北部）",
+   "credit": "Syced",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:%E7%9F%B3%E5%9E%A3%E5%B8%82%E7%AB%8B%E6%98%8E%E7%9F%B3%E5%B0%8F%E5%AD%A6%E6%A0%A1.jpg"
+  }
+ ],
+ "田んぼがキビ畑に変わる": [
+  {
+   "src": "/media/50-0.jpg",
+   "w": 1280,
+   "h": 853,
+   "caption": "サトウキビの収穫（西表島、現在）",
+   "credit": "松岡明芳",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:2017-01-26_Iriomotejima_%E3%82%B5%E3%83%88%E3%82%A6%E3%82%AD%E3%83%93%E7%95%91_DSCF0448.jpg"
+  }
+ ],
+ "コザ暴動": [
+  {
+   "src": "/media/51-0.jpg",
+   "w": 1118,
+   "h": 785,
+   "caption": "コザ暴動の翌朝、焼けた車と米兵（1970年12月20日）",
+   "credit": "Larry Gray, United States Government military member",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Koza_Riot_3.jpg"
+  }
+ ],
+ "日本復帰": [
+  {
+   "src": "/media/52-1.jpg",
+   "w": 500,
+   "h": 336,
+   "caption": "復帰の日の式典。日の丸が掲げられる（1972年5月）",
+   "credit": "U.S. Army",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Military_Ceremony_2_-_Japan,_Okinawa,_Naha_Wheel_Base_1972,5.jpg"
+  }
+ ],
+ "沖縄国際海洋博覧会": [
+  {
+   "src": "/media/53-0.jpg",
+   "w": 500,
+   "h": 432,
+   "caption": "海に浮かぶアクアポリスと海洋博会場の航空写真（1977年）",
+   "credit": "国土交通省",
+   "license": "Attribution",
+   "page": "https://commons.wikimedia.org/wiki/File:Aquapolis_1977.jpg"
+  },
+  {
+   "src": "/media/53-1.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "海洋博公園（現在）",
+   "credit": "Hyppolyte de Saint-Rambert",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Okinawa_Ocean_Expo_Park_view_hdsr_Vlux5_06.jpg"
+  }
+ ],
+ "ナナサンマル": [
+  {
+   "src": "/media/54-0.jpg",
+   "w": 960,
+   "h": 637,
+   "caption": "石垣島の「730交差点」の記念碑（現在）",
+   "credit": "Shig ISO",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:730_intersection_Okinawa_Japan.jpg"
+  }
+ ],
+ "首里城、よみがえる": [
+  {
+   "src": "/media/55-0.jpg",
+   "w": 1280,
+   "h": 914,
+   "caption": "復元された首里城正殿の内部・国王の玉座（2019年の焼失前）",
+   "credit": "CEphoto, Uwe Aranas",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Naha_Okinawa_Japan_Shuri-Castle-05a.jpg"
+  }
+ ],
+ "普天間と県民の声": [
+  {
+   "src": "/media/56-0.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "市街地に囲まれた普天間飛行場（2010年）",
+   "credit": "Sonata",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Marine_Corps_Air_Station_Futenma_20100526.jpg"
+  },
+  {
+   "src": "/media/56-1.jpg",
+   "w": 945,
+   "h": 595,
+   "caption": "普天間飛行場（1960年ごろ）",
+   "credit": "U.S. Navy",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_U.S._Marine_Corps_Station_Futenma,_Okinawa,_Japan,_circa_in_1960.jpg"
+  }
+ ],
+ "九州・沖縄サミット": [
+  {
+   "src": "/media/57-0.jpg",
+   "w": 500,
+   "h": 249,
+   "caption": "九州・沖縄サミットの各国首脳（2000年7月）",
+   "credit": "European Commission",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:G8_Summit_2000_family_photo.jpg"
+  }
+ ],
+ "橋でつながる島々と観光の時代": [
+  {
+   "src": "/media/58-0.jpg",
+   "w": 1280,
+   "h": 853,
+   "caption": "伊良部大橋（現在）",
+   "credit": "Raita Futo from Tokyo, Japan",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Irabu_Bridge_(52204774130).jpg"
+  },
+  {
+   "src": "/media/58-1.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "宮古島から望む伊良部大橋",
+   "credit": "Paipateroma",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Miyako_irabu_ohashi_2014_1.jpg"
+  }
+ ],
+ "国境の島々の今": [
+  {
+   "src": "/media/59-0.jpg",
+   "w": 1280,
+   "h": 856,
+   "caption": "与那国馬（現在）",
+   "credit": "sota",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Yonaguni_horse.jpg"
+  },
+  {
+   "src": "/media/59-1.jpg",
+   "w": 1280,
+   "h": 720,
+   "caption": "与那国島・東崎（現在）",
+   "credit": "ブルーノ・プラス",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Yonaguni_agarizaki1.jpg"
+  }
+ ],
+ "辺野古の海": [
+  {
+   "src": "/media/60-0.jpg",
+   "w": 1280,
+   "h": 970,
+   "caption": "辺野古の埋め立て計画図（沖縄防衛局、2012年）",
+   "credit": "沖縄防衛局",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Henoko_Airfield_Under_Construction.png"
+  }
+ ],
+ "首里城炎上、そして再建へ": [
+  {
+   "src": "/media/61-0.jpg",
+   "w": 1280,
+   "h": 853,
+   "caption": "火災後の首里城（2019年11月）",
+   "credit": "Kugel~commonswiki",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Shuri_Castle_after_fire_seen_from_Kankaimon_201911.JPG"
+  }
+ ],
+ "やんばるの森、世界自然遺産に": [
+  {
+   "src": "/media/62-0.jpg",
+   "w": 1280,
+   "h": 960,
+   "caption": "ヤンバルクイナ（国頭村）",
+   "credit": "Agostini Sylvain",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Okinawa_Rail,_Kunigami-son,_Okinawa.jpg"
+  }
+ ],
+ "田んぼの残る島": [
+  {
+   "src": "/media/64-0.jpg",
+   "w": 1280,
+   "h": 853,
+   "caption": "伊平屋島・我喜屋の集落（現在）",
+   "credit": "Kugel~commonswiki",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Gakiya,_Iheya_Island_202211_02.jpg"
+  }
+ ],
+ "旅の終わり、はじまりの田へ": [
+  {
+   "src": "/media/01-1.jpg",
+   "w": 1280,
+   "h": 853,
+   "caption": "久高島の東海岸（現在）",
+   "credit": "Kugel~commonswiki",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Ishiki_Hama_202401_04.jpg"
+  },
+  {
+   "src": "/media/64-0.jpg",
+   "w": 1280,
+   "h": 853,
+   "caption": "伊平屋島・我喜屋の集落（現在）",
+   "credit": "Kugel~commonswiki",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Gakiya,_Iheya_Island_202211_02.jpg"
+  }
+ ]
+}

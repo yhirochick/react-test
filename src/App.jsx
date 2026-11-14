@@ -4,6 +4,7 @@ import 'maplibre-gl/dist/maplibre-gl.css'
 import { useGsiTerrainSource as createGsiTerrainSource } from 'maplibre-gl-gsi-terrain'
 import { ERAS, EVENTS, eraOf } from './data/events'
 import { cameraAltitude, compass, planFlight, pointAlong } from './flight'
+import Film, { mediaOf } from './Film'
 import './App.css'
 
 const GSI = 'https://cyberjapandata.gsi.go.jp/xyz'
@@ -111,10 +112,14 @@ export default function App() {
   const [auto, setAuto] = useState(false)
   const [base, setBase] = useState('photo')
   const [collapsed, setCollapsed] = useState(false)
+  const [showFilm, setShowFilm] = useState(true) // 到着したら映像に切り替えるか
+  const [voice, setVoice] = useState(false) // 解説の読み上げ
+  const [filmIdx, setFilmIdx] = useState(null) // 映像を流している出来事
 
   const event = idx >= 0 ? EVENTS[idx] : null
   const era = event ? eraOf(event.era) : null
   const flying = event != null && arrivedIdx !== idx
+  const filming = event != null && showFilm && filmIdx === idx && !flying
   const eraStarts = useMemo(
     () => Object.fromEntries(ERAS.map((e) => [e.id, EVENTS.findIndex((x) => x.era === e.id)])),
     [],
@@ -367,16 +372,36 @@ export default function App() {
     return () => cancelAnimationFrame(flightRef.current)
   }, [idx, ready, startOrbit, stopOrbit])
 
-  // 自動飛行: 到着して読む時間が過ぎたら次へ
+  // 到着して少し旋回したら、映像に切り替える
   useEffect(() => {
-    if (!auto || idx < 0 || arrivedIdx !== idx) return
+    if (idx < 0 || arrivedIdx !== idx || !showFilm) return
+    const timer = setTimeout(() => setFilmIdx(idx), 1800)
+    return () => clearTimeout(timer)
+  }, [idx, arrivedIdx, showFilm])
+
+  // 映像の解説が終わったとき。自動飛行なら次へ進む
+  const onFilmDone = useCallback(() => {
+    if (!auto) return
+    if (idx >= LAST) setAuto(false)
+    else setIdx(idx + 1)
+  }, [auto, idx])
+
+  // 映像を切っているときの自動飛行: 読む時間が過ぎたら次へ
+  useEffect(() => {
+    if (!auto || showFilm || idx < 0 || arrivedIdx !== idx) return
     const dwell = 5000 + EVENTS[idx].text.length * 60
     const timer = setTimeout(() => {
       if (idx >= LAST) setAuto(false)
       else setIdx(idx + 1)
     }, dwell)
     return () => clearTimeout(timer)
-  }, [auto, idx, arrivedIdx])
+  }, [auto, showFilm, idx, arrivedIdx])
+
+  // 次の場所の写真を先読みしておく
+  useEffect(() => {
+    if (idx < 0) return
+    for (const e of [EVENTS[idx], EVENTS[idx + 1]]) for (const m of e ? mediaOf(e) : []) new Image().src = m.src
+  }, [idx])
 
   // 背景地図の切り替え
   useEffect(() => {
@@ -409,7 +434,7 @@ export default function App() {
   }
 
   return (
-    <div className="app">
+    <div className={'app' + (filming ? ' filming' : '')}>
       <div ref={containerRef} className="map" />
       <div className={'clouds' + (flying && leg && leg.km > 6 ? ' on' : '')} aria-hidden="true">
         <i />
@@ -418,6 +443,8 @@ export default function App() {
         <i />
       </div>
 
+      {event && <Film event={event} active={filming} voice={voice} onDone={onFilmDone} />}
+
       {idx < 0 && (
         <div className="intro">
           <div className="intro-box">
@@ -425,7 +452,8 @@ export default function App() {
             <h1>稲と島の時空飛行</h1>
             <p className="intro-lead">
               ひと粒の稲が島に根づいた日から、グスクの時代、琉球王国、沖縄戦、そして現代まで。
-              奄美から与那国、大東の島々まで{EVENTS.length}の地点を、鳥の目で年代順にめぐります。
+              奄美から与那国、大東の島々まで{EVENTS.length}の地点を鳥の目で年代順にめぐり、
+              到着するたびに、その地の写真や絵図と解説で何が起きたかをたどります。
             </p>
             <div className="intro-actions">
               <button className="btn primary" onClick={() => start(true)} disabled={!ready}>
@@ -561,12 +589,19 @@ export default function App() {
                 <span>
                   {idx + 1} / {EVENTS.length}
                 </span>
-                <button
-                  className="link"
-                  onClick={() => setBase((b) => (b === 'photo' ? 'pale' : 'photo'))}
-                >
-                  {base === 'photo' ? '地図に切り替え' : '航空写真に切り替え'}
-                </button>
+                <span className="toggles">
+                  <button className="link" onClick={() => setVoice((v) => !v)}>
+                    {voice ? '🔊 読み上げ中' : '🔈 読み上げ'}
+                  </button>
+                  <button className="link" onClick={() => setShowFilm((f) => !f)}>
+                    {showFilm ? '🗺 地図を見る' : '🎬 映像を見る'}
+                  </button>
+                  {!filming && (
+                    <button className="link" onClick={() => setBase((b) => (b === 'photo' ? 'pale' : 'photo'))}>
+                      {base === 'photo' ? '地図表示' : '航空写真'}
+                    </button>
+                  )}
+                </span>
               </div>
             </footer>
           </article>
