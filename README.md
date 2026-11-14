@@ -1,16 +1,26 @@
-# React + Vite
+# 稲と島の時空飛行
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+稲作のはじまりから現代まで、琉球・沖縄の歴史を年代順に、鳥の目でめぐる空の旅の Web アプリです。
+奄美から与那国、大東諸島までの地点を 3D の航空写真の上で飛び、その場所で起きた出来事を解説します。
 
-Currently, two official plugins are available:
+## 動かし方
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+```
 
-## React Compiler
+```bash
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## しくみ
 
-## Expanding the Oxlint configuration
+- 地図: [MapLibre GL JS](https://maplibre.org/) と国土地理院の地理院タイル（航空写真・淡色地図・標高）
+- `src/data/events.js`: 年表データ。出来事の場所、解説、カメラの向き、人や軍の動きを示す矢印
+- `src/flight.js`: 離陸 → 巡航 → 降下の飛行カメラの計算
+- `src/App.jsx`: 画面と操作
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 注意
+
+解説文は概説で、伝承や諸説あるものを含みます。年代や数値は公開前に資料で確認してください。
+地図上の赤い矢印はおおよその向きを示すもので、正確な経路ではありません。
